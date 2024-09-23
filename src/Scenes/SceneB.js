@@ -123,7 +123,7 @@ export default class SceneB extends Phaser.Scene {
         fontSize: "32px",
         fill: "#fff",
       }).setScrollFactor(0).setDepth(100);
-      this.coinsText = this.add.text(460, 20, `⬅️⬆️➡️ para moverse Espacio para disparar`, {
+      this.indicacionText = this.add.text(460, 20, `⬅️⬆️➡️ para moverse Espacio para disparar`, {
         fontSize: "32px",
         fill: "#fff",
       }).setScrollFactor(0).setDepth(100);
